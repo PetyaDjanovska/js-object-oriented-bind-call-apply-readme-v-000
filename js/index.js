@@ -56,7 +56,7 @@ class User {
         return event.keywords.some(
             function(word) {
                 return this.interests.includes(word);
-            }.bind(this) // added to the and of the callback function
+            }.bind(this) // added to the end of the callback function
         );
     }
 }
