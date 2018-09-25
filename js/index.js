@@ -24,3 +24,4 @@ function greet(customerOne, customerTwo) {
 }
 
 greet.call(sally, 'Terry', 'George');
+greet.apply(sally, ['Terry', 'George']);
